@@ -1,0 +1,13 @@
+#root {
+  max-width: 1920px;
+  min-height: 100vh ;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.bg{
+  background: radial-gradient(circle, transparent 20%, #e6122b 20%, #e6122b 80%, transparent 80%, transparent) 0% 0% / 80px 80px, radial-gradient(circle, transparent 20%, #e6122b 20%, #e6122b 80%, transparent 80%, transparent) 40px 40px / 80px 80px, linear-gradient(#040404 2.5px, transparent 2.5px) 0px -1.25px / 40px 40px, linear-gradient(90deg, #040404 2.5px, #e6122b 2.5px) -1.25px 0px / 40px 40px #e6122b;
+  background-size: 80px 80px, 80px 80px, 40px 40px, 40px 40px;
+  background-color: #e6122b;
+}
