@@ -1,0 +1,23 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+
+.bg{
+  background: radial-gradient(circle, transparent 20%, #e6122b 20%, #e6122b 80%, transparent 80%, transparent) 0% 0% / 172px 172px, radial-gradient(circle, transparent 20%, #e6122b 20%, #e6122b 80%, transparent 80%, transparent) 86px 86px / 172px 172px, linear-gradient(#ffffff 1.5px, transparent 1.5px) 0px -0.75px / 86px 86px, linear-gradient(90deg, #ffffff 1.5px, #e6122b 1.5px) -0.75px 0px / 86px 86px #e6122b;
+  background-size: 172px 172px, 172px 172px, 86px 86px, 86px 86px;
+  background-color: #e6122b;
+}
+
+.bg-2{
+  background-image: radial-gradient(#e6122b 3.5px, transparent 3.5px);
+  background-size: 100px 100px;
+  background-color: #ffffff;
+}
