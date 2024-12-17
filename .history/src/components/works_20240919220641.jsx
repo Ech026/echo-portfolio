@@ -1,0 +1,19 @@
+import React from 'react'
+import Sidebar from './sidebar'
+import Nav from './nav'
+import Footer from './footer'
+
+const Works = () => {
+  return (
+    <>
+    <Sidebar />
+    <Nav />
+    <div className=' hero md:min-h-screen flex flex-col justify-center px-6 md:px-20'>
+        iiiii
+          
+    </div>
+    </>
+  )
+}
+
+export default Works
